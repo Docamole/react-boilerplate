@@ -94,7 +94,7 @@ yarn add react react-dom prop-types
 
 Add webpack and babel to bundle and transpile our source code, create the empty configs:
 ```bash
-yarn add -D webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react babel-loader
+yarn add -D webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties babel-loader
 touch webpack.config.js
 touch .babelrc
 ```
@@ -132,6 +132,9 @@ Edit your `.babelrc` file:
   "presets": [
     "@babel/preset-env",
     "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
   ]
 }
 ```
