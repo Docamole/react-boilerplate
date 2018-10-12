@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Counter from './components/Counter'
+
 const App = () => (
   <div>
-    Minimal react boilerplate
+    <Counter />
   </div>
 )
 
