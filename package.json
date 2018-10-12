@@ -1,0 +1,35 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "A minimal react boilerplate",
+  "author": "Nicholaus Brabant <silv3rlogic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliabalfour/react-boilerplate.git"
+  },
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "npx webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}

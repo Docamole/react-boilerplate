@@ -1,0 +1,19 @@
+
+# Common OS files
+.DS_Store
+thumbs.db
+
+# Common IDE caches
+.vscode
+.idea
+
+# Compiled assets
+dist/*
+
+# Node modules
+node_modules
+
+###############
+#  Whitelist  #
+###############
+!dist/index.html
